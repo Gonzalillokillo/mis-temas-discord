@@ -1,0 +1,24 @@
+MiFondoPersonalizado.theme.css
+
+/**
+ * @name Mi Fondo Personalizado
+ * @author TuUsuario
+ * @version 1.0.0
+ * @description Un fondo personalizado utilizando BasicBackground como base.
+ * @source https://github.com/TuUsuario/mis-temas-discord
+ */
+
+/* Fondo personalizado Vencord */
+html, body, #app-mount {
+    background: url("https://cdn.discordapp.com/attachments/1382044778144727040/1512105883822325891/49ed106eacbef90eeed88f1c00b11ad4.jpg?ex=6a22e1d8&is=6a219058&hm=7520dc8aad4d00e13edeb1f721aa18762dd1c43ed8ad9f80f2174095cf68d3ee&") center/cover no-repeat !important;
+}
+
+/* Hace transparentes los paneles de Discord para poder ver tu imagen */
+.layer_cd0de5, 
+.container__a2ac7, 
+.chat__52143, 
+.sidebar_ded4b5, 
+.panels__7a4a6, 
+.container__5906b {
+    background: transparent !important;
+}
